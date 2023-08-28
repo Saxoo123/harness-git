@@ -1,0 +1,14 @@
+inputSet:
+  pipeline:
+    identifier: Build_harness_git_1693191268984
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  name: git-harness
+  identifier: githarness
+  orgIdentifier: default
+  projectIdentifier: default_project
