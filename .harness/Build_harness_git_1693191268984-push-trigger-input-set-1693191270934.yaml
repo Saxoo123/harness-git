@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_git_1693191268984-push-trigger-input-set
+  identifier: Build_harness_git_1693191268984pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harness_git_1693191268984
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
